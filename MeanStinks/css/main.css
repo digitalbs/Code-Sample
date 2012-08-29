@@ -1,0 +1,618 @@
+﻿html, body
+{
+	font-family:arial;
+}
+
+#main
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/9940/bkgdMeanStinks_medium.jpg) no-repeat;
+	width:	810px;
+	min-height:1512px;
+    height:auto !important;
+    height:1512px;
+	background-position:0 1px;
+    margin:0 auto;
+    padding:0 0 30px 0;
+}
+
+#content
+{
+    padding-left:21px;
+}
+
+header#hdrPage
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/7034/hdrGangUpForGood.png) 159px 34px no-repeat;
+	position:relative;
+	padding-bottom:115px;
+}
+
+.noText
+{
+	text-indent:-3000px;
+	display:block;	
+}
+
+#btnSharePage
+{
+	float:right;
+	margin:2px 36px 0 0;	
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+header a#logo
+{
+	position:absolute;
+	top:45px;
+	left:12px;
+	width:145px;
+	height:100px;
+}
+
+/* bully book */
+#bullyBook
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/6266/bkgdBullyBook.png) no-repeat;
+	width:437px;
+	height:307px;
+	float:left;
+    overflow:hidden;
+	position:relative;
+}
+
+#bullyBook #btnNextBully
+{
+	position:absolute;
+	bottom:112px;
+	right:48px;
+	width:71px;
+	height:39px;
+	z-index:10;
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/6275/btnNextBully.png) no-repeat;
+}
+
+#bullyBook #btnNextBully.start
+{
+	
+	bottom:15px;
+	right:20px;
+	width:194px;
+	height:51px;
+    background-image:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/8609/imgSpacer.png);
+    z-index:10;
+}
+
+#bullyTitle, #bullyContent
+{
+	position:relative;
+	z-index:1;
+}
+
+#bullyTitle
+{
+	padding:79px 0 0 45px;	
+}
+
+#bullyContent
+{
+	padding:10px 0 0 150px;
+}
+
+#bullyBook ul
+{
+	margin:0;
+	padding:0;
+	position:relative;
+	z-index: 5;
+}
+
+#bullyBook li
+{
+	list-style:none;
+	display:none;
+	margin-top:18px;
+	margin-left:5px;
+}
+
+#bullyBook li.active
+{
+	display: block;
+}
+
+#bullyNotepage
+{
+	position:absolute;
+	top:18px;
+	left:5px;
+	z-index:0;
+}
+
+/* product Callout  */
+#productCallout
+{
+	width:321px;
+	height:296px;
+	margin:7px 31px 0 0px;
+	float:right;
+	left:-4px;
+	position:relative;
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0021/0766/imgCallout.png) no-repeat;
+}
+
+#productCallout a
+{
+	width:125px;
+	height:45px;
+	bottom:70px;
+	right:31px;
+	position:absolute;
+}
+
+#quiz
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/5783/bkgdQuiz.png) no-repeat;
+	width:729px;
+	height:377px;
+	padding:163px 0 0 60px;
+	float:left;
+}
+
+.qAnswer
+{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:788px;
+	height:490px;
+}
+
+.qAnswer a
+{
+	position:absolute;
+	bottom:26px;
+	right:72px;
+	width:192px;
+	height:100px;
+	z-index: 10;
+}
+
+#picGirls
+{
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+
+#quiz h2
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/5834/hdrQuiz.png) no-repeat;
+	width:438px;
+	height:86px;
+	position:absolute;
+	top:70px;
+	left:60px;
+}
+
+
+#startQuiz
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/6172/imgStartQuiz.png) no-repeat;
+	width:675px;
+	height:307px;	
+}
+
+#startQuiz a
+{
+	position: absolute;
+	bottom:25px;
+	right:0px;
+	width:120px;
+	height:30px;
+}
+
+#productTooltip
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/7022/btnTooltip.png) no-repeat;
+	width:315px;
+	height:45px;
+	padding-top:15px;
+	float:left;
+}
+
+#productTooltip a
+{
+	height:40px;
+	float:left;
+	display:block;
+	text-indent:-30000px;
+}
+
+#productTooltip a#kroger
+{	
+	width:55px;
+}
+
+#productTooltip a#target
+{	
+	width:48px;
+}
+
+#productTooltip a#cvs
+{	
+	width:111px;
+}
+
+#productTooltip a#walgreens
+{	
+	width:88px;
+}
+
+img#spiral
+{
+	position:absolute;
+	top:70px;
+	right:32px;
+	z-index:0;	
+}
+
+#quiz article
+{
+	z-index:10;
+	position:relative;
+}
+
+
+/* Quiz Answers */
+
+#quiz #truthTeller
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/8687/bkgdTruthTeller.png) no-repeat;
+}
+
+#quiz #bigHeart
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/5786/bkgdBigHeart.png) no-repeat;
+}
+
+#quiz #peacemaker
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/5795/bkgdPeacemaker.png) no-repeat;
+}
+
+#quiz #communicator
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/8666/bkgdCommunicator.png) no-repeat;
+}
+
+#quiz #cheerleader
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/5789/bkgdCheerleader.png) no-repeat;
+}
+
+#quiz #socialButterfly
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/5809/bkgdSocialButterfly.png) no-repeat;
+}
+
+/* quiz form */
+
+.quiz
+{
+	position:relative;
+}
+
+.quiz form{
+	position:relative;
+	overflow: hidden;
+	width:729px;
+	height:325px;
+}
+
+.ui-effects-wrapper
+{
+	display:inline;
+}
+
+.questions_answer
+{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	display:none;
+}
+
+.question, .result
+{
+	padding:1em;
+	width:700px;
+	height:300px;
+}
+
+.question h3, .result h3, .question li, .result
+{
+	margin-top:0;
+	color:#002c76;
+}
+
+.questions_answer ul
+{
+	list-style:none;
+	padding:0;
+	width:650px;
+	float:left;
+    margin-top:0;
+}
+
+.question li span
+{
+	color:#0098cd;
+	width:20px;
+	height:20px;
+	float:left;
+	display:block;
+}
+
+.questions_answer li
+{
+    position:relative;
+	width:auto;
+	padding:9px 0 8px 18px;
+	list-style:none;
+	float:left;
+	clear:left;
+	line-height:1.3em;
+	font-size:14px;
+	margin-left:3px;
+}
+
+.question li input
+{
+	position:absolute;
+	left:0;
+	width:100%;
+	height:100%;
+	opacity:0;
+	filter: alpha(opacity = 0);
+	cursor:pointer;
+}
+
+.question header .img_spacer
+{
+	float:right;
+	width:270px;
+	height:30px;
+	display:block;
+}
+
+.question li span.answered
+{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+	width:100%;
+	height:100%;
+	display:none;
+}
+
+.question li span.answered span
+{
+	width:39px;
+	height:37px;
+	display:block;
+	position:absolute;
+	z-index:2;
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/4789/imgCircleAnswer.png) no-repeat;
+}
+    
+.question h3 span
+{
+	color:#d40072;
+	float:left;
+	width:auto;
+	height:50px;
+	padding-right:8px;	
+}
+
+#quiz .question h3 label span.underline 
+{ 
+    font-family: arial; 
+    color: #0098cd; 
+    float: none; 
+    height: auto; 
+}
+
+.question h3
+{
+    font-family: 'Questrial', sans-serif; 
+	font-size:17px;
+	line-height:20px;
+	width:97%;
+	margin-bottom:4px;
+	color:#0098cd;
+}
+
+.answered img
+{
+	position:absolute;
+}
+
+article.current
+{
+	display:block;
+}
+
+
+/* Quiz Utility nav and counter */
+
+#quiz .utilityNav
+{
+	position:absolute;
+   	bottom:11px;
+	right:44px;
+	z-index:10;
+    display:none;
+}
+
+
+#quiz .utilityNav li
+{
+	margin-left:0;
+    float:left;
+	list-style:none;
+}
+
+#quiz .utilityNav a, #quiz .utilityNav .spacer
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/4777/btnsPagination.png) no-repeat;
+	width:41px;
+	height:19px;	
+}
+
+#quiz .utilityNav .spacer
+{
+	visibility:visible;
+	width:13px;
+	background-position:-50px 0;
+}
+
+#quiz .utilityNav .spacer.disabled
+{
+	visibility: hidden;	
+}
+
+#quiz .utilityNav a
+{
+	padding:2px 5px;	
+}
+
+#quiz .utilityNav a.disabled
+{
+	visibility:hidden;
+}
+
+#quiz .utilityNav a.next
+{
+	background-position:-63px 0;
+	width:45px;
+}
+
+#quiz .utilityNav a.back
+{
+	width:73px;
+	height:29px;
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0021/0303/btnBack.png) no-repeat;
+}
+
+/* Question counter */
+
+#quiz .questionCounter
+{
+	position:absolute;
+	z-index:1;
+	top:0px;
+	right:10px;
+	color:#333;
+	display:none;
+}
+
+#quiz .questionCounter
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/4804/quizCount.png) no-repeat;
+	width:60px;
+	height:27px;
+	padding:10px 0 0 15px;
+	right:290px;
+	top:60px;
+	color:#002c76;
+	font-size:11px;
+	font-weight:bold;
+}
+
+
+/* Place Badge on Display */
+#badgeDisplay header 
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/4786/hdrPutYourBadge.png) no-repeat;
+	width:692px;
+	height:104px;
+	margin-left:49px;
+	position:relative;
+}
+
+#badgeDisplay header a
+{
+	position:absolute;
+	bottom:6px;
+	right:6px;
+	width:75px;
+	height:30px;
+}
+
+#badgeDisplay h2
+{
+	margin:0;
+}
+
+
+/* bottom callouts */
+#dramaFreeYear, #bluePinkySwear
+{
+	float:left;
+	margin-top:50px;
+}
+
+#dramaFreeYear
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/4795/imgDramaFreePledge.png) no-repeat;
+	width:398px;
+	height:310px;
+	position:relative;
+}
+
+#dramaFreeYear a
+{
+	position:absolute;
+	bottom:27px;
+	right:22px;
+	width:201px;
+	height:110px;
+}
+
+#bluePinkySwear
+{
+	padding-left:15px;
+}
+
+#bluePinkySwear h3
+{
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/4783/hdrPinkySwear.png) no-repeat;
+	width:395px;
+	height:106px;
+	margin-top:0;
+}
+
+#bluePinkySwear #ytVideo
+{
+	width:381px;
+	height:211px;
+	background:url(//s3.amazonaws.com/publisher_production-s3fs-public-3ed74cb/tabs/assets/0020/4801/imgVideoThumb.jpg) no-repeat;
+	cursor:pointer;
+}
+

@@ -1,0 +1,35 @@
+﻿header#hdrPage {
+    padding-bottom: 105px !important;
+}
+
+#productCallout {
+    margin-top: 0;
+}
+
+img {
+    border: none;
+}
+
+.ui-effects-wrapper img {
+    position: absolute !important;
+    left: 0 !important;
+}
+
+.questions_answer .img_spacer {
+    margin-top: 10px;
+}
+
+#quiz .question h3 {
+    width: 500px !important;
+    display: inline;
+}
+
+.questions_answer ul {
+    width: 500px !important;
+}
+
+.questions_answer li {
+    float: none;
+    clear: none;
+    width: 600px !important;
+}
